@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ParkHere"
         tools:targetApi="31">
         <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity

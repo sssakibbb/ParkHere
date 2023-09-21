@@ -20,8 +20,7 @@ import java.util.Objects;
 
 public class Login extends AppCompatActivity {
 
-    private MaterialButton btnLogin, btnLinkToRegister;
-            //, btnForgotPass;
+    private MaterialButton btnLogin, btnLinkToRegister , btnForgotPass;
     private TextInputLayout inputEmail, inputPassword;
     private FirebaseAuth auth= FirebaseAuth.getInstance();
 
@@ -34,7 +33,7 @@ public class Login extends AppCompatActivity {
         inputPassword = findViewById(R.id.edit_password);
         btnLogin = findViewById(R.id.button_login);
         btnLinkToRegister = findViewById(R.id.button_register);
-       // btnForgotPass = findViewById(R.id.button_reset);
+        btnForgotPass = findViewById(R.id.button_reset);
 
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +57,15 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        btnForgotPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this, ForgetPassword.class);
+                startActivity(intent);
+                finish();
 
+            }
+        });
 
     }
 
