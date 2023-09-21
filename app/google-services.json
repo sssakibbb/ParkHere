@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442637529537",
+    "project_id": "parkhere-by-sakib",
+    "storage_bucket": "parkhere-by-sakib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442637529537:android:40c3f0f7c0de7258c6ff40",
+        "android_client_info": {
+          "package_name": "com.example.parkhere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChhlXtRfjRFy25Sv6-whGNS8XZxRQojvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
