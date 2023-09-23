@@ -15,17 +15,26 @@
         android:theme="@style/Theme.ParkHere"
         tools:targetApi="31">
         <activity
-            android:name=".ForgetPassword"
+            android:name=".DriverORGarageOwnerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".driver.ForgetPassword"
             android:exported="false" />
         <activity
-            android:name=".Home"
+            android:name=".driver.Home"
             android:exported="false" />
         <activity
-            android:name=".Register"
+            android:name=".driver.Register"
             android:exported="false"
-            android:parentActivityName=".Register" />
+            android:parentActivityName=".driver.Register" />
         <activity
-            android:name=".Login"
+            android:name=".driver.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

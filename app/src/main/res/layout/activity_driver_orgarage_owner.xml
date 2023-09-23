@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
+
+    <Button
+        android:id="@+id/carOwnerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm a Car Owner"
+        android:layout_gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@color/white"
+
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/garageOwnerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm a Garage Owner"
+        android:layout_gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@color/white"
+        android:elevation="4dp"/>
+
+</LinearLayout>
